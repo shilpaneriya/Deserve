@@ -130,7 +130,7 @@ body {
     max-height: 300px;
     width: 100%;
     height: 100%;
-    background: rgba(246, 129, 33, 0.6);
+    /*background: rgba(246, 129, 33, 0.6);*/
     border-radius: 4px;
 }
 
