@@ -1,0 +1,262 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/***** header start ****/
+
+.navbar {
+	display: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-align: left;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
+    border-bottom: 2px solid #fff;
+}
+.navbar-nav li a.active {
+    border-bottom: 2px solid #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f68121!important;
+    background-color: transparent !important;
+    border-bottom: 2px solid #fff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+}
+.navbar-nav > li > a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+}
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f68121;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 9px 0;
+}
+.nav > li {
+    display: block;
+    margin: 10px 20px;
+}
+.navbar{
+    margin-bottom: 0px !important;
+    padding: 8px 0;
+}
+
+.navbar-nav{
+    float:right !important;
+}
+.sticky-nav {
+    position: fixed;
+    top: 0px;
+    background-color: #212121 !important;
+    z-index: 2000;
+}
+/***** header end ****/
+
+
+/* home background*/
+
+#bg-image:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/pattern.png');
+}
+
+#bg-image {
+    position: relative;
+    background: url('../images/home_banner.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-heading {
+	text-align: center;
+}
+
+.main-heading p {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 1px 1px 6px #000000;
+    letter-spacing: 2px;
+}
+.main-heading h1 {
+    color: #fff;
+    font-size: 130px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 5px 9px 10px #000000;
+    margin-bottom: 0;
+}
+.main-heading h2 {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 1px 1px 6px #000000;
+    letter-spacing: 2px;
+}
+.main-heading span{
+	color:#f68121;
+}
+
+.main-container {
+    position: inherit;
+    z-index: 9;
+}
+
+.opacity_block {
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+    background: rgba(246, 129, 33, 0.6);
+    border-radius: 4px;
+}
+
+.cash_prize {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    border-radius: 4px;
+}
+
+.cash_prize img {
+	width:300px;
+}
+.profile_card {
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.profile_position {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    padding-top: 15px;
+}
+.profile_name {
+    font-size: 30px;
+    color: #f68121;
+    font-weight: 600;
+}
+.profile_winner, .profile_sub_winner {
+	font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+.content-wrapper {
+    /*position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);*/
+    padding: 50px 0;
+}
+
+.registration_fees h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 30px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.registration_fees h3 {
+    font-size: 40px;
+    text-shadow: 1px 1px 6px #000000;
+    letter-spacing: 2px;
+}
+
+.registration_fees h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 30px;
+    letter-spacing: 1px;
+}
+
+.announcement_line {
+    font-size: 35px;
+    text-shadow: 5px 9px 10px #000000;
+    letter-spacing: 2px;
+}
+
+.know-more {
+    position: absolute;
+    z-index: 2;
+    bottom: 120px;
+    left: 50%;
+    margin-left: -125px;
+    width: 250px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 27px;
+    font-family: 'Lato', sans-serif;
+    color: #fff !important;
+    background: #f68121;
+    padding: 12px 5px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none!important;
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.registration_fees {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.partnert_logo {
+	text-align: center;
+}
+
+.powered_by {
+	position: absolute;
+    top: -85px;
+    left: 30px;
+    text-align: center;
+}
+
+.media_partner {
+    position: absolute;
+    top: -75px;
+    right: 30px;
+    text-align: center;
+}
+
+.powered_by p, .media_partner p {
+    font-size: 20px;
+    text-shadow: 5px 9px 10px #000000;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+
+
