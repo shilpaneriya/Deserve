@@ -284,6 +284,58 @@ and (max-device-width : 1024px) {
 	}
 }
 
+@media only screen 
+and (min-width : 1224px) {
+
+.dansography_logo {
+    text-align: right;
+}
+.quixotic_logo {
+    text-align: left;
+}
+.content-wrapper {
+    padding: 15px 0;
+}
+.cash_prize, .profile_card {
+    max-width: 230px;
+}
+.main-heading h1 {
+    font-size: 100px;
+}
+.main-heading p {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.announcement_line {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.registration_fees {
+    padding: 0 0 10px 0;
+}
+.registration_fees h1 {
+    padding: 10px 0;
+    font-size: 26px;
+}
+.registration_fees h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.know-more {
+    bottom: 10%;
+}
+.powered_by img {
+    max-width: 250px;
+}
+
+.media_partner img {
+    max-width: 300px;
+}
+  
+}
+
+
 
 
 
