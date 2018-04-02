@@ -2,6 +2,14 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+.location_table {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 17px;
+}
+
 /***** header start ****/
 
 .navbar {
