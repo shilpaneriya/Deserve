@@ -296,6 +296,14 @@ and (max-device-width : 1024px) {
 and (min-device-width : 1200px) 
 and (max-device-width : 1600px) {
 
+.location_table {
+    max-width: 74%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+}
+	
 .dansography_logo {
     text-align: right;
 }
