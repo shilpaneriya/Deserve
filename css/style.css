@@ -200,7 +200,7 @@ body {
 .registration_fees h1 {
     font-size: 32px;
     margin: 0;
-    padding: 30px;
+    padding: 35px 0;
     letter-spacing: 1px;
 }
 
@@ -332,7 +332,7 @@ and (max-device-width : 1600px) {
     padding: 0 0 10px 0;
 }
 .registration_fees h1 {
-    padding: 10px 0;
+    padding: 35px 0;
     font-size: 26px;
 }
 .registration_fees h3 {
