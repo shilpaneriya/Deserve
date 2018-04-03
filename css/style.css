@@ -263,20 +263,6 @@ body {
 	margin-bottom: 10px;
 }
 
-/* .powered_by {
-	position: absolute;
-    top: -85px;
-    left: 30px;
-    text-align: center;
-} */
-
-.media_partner {
-    position: absolute;
-    top: -75px;
-    right: 30px;
-    text-align: center;
-}
-
 .powered_by p, .media_partner p {
     font-size: 20px;
     text-shadow: 5px 9px 10px #000000;
