@@ -3,6 +3,13 @@ body {
 	background-color: #100e0f;
 }
 
+.media_partner img {
+    max-width: 350px;
+}
+.powered_by img {
+    max-height: 120px;
+}
+
 .location_table {
     max-width: 90%;
     width: 100%;
