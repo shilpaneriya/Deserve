@@ -80,6 +80,14 @@ body {
 
 /* home background*/
 
+.social_media_icons img {
+    width: 50px;
+    margin: 0 8px;
+}
+.social_media_icons {
+    margin: 65px 0 0 0;
+}
+
 #bg-image:after {
     content: '';
     position: absolute;
