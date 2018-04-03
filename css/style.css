@@ -113,7 +113,7 @@ body {
 .logos_wrapper > div {
 	display: inline-block;
 	width: auto;
-	margin: 50px;
+	margin: 0 50px 40px 50px;
 	text-align: center;
 }
 .powered_by {
